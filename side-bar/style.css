@@ -1,0 +1,27 @@
+.sidebar {
+  height: 180px;
+  width: 52px;
+  background-color: green;
+  left: 0;
+  position: fixed;
+  top: 50%;
+  transform: translate(0px, -50%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.side {
+  height: 180px;
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+i {
+  color: honeydew;
+}
+i:hover {
+  color: blue;
+}
