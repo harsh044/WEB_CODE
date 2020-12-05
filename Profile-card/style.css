@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+  position: relative;
+  /* width: 50%; */
+  /* margin-left: 200px; */
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 300px;
+  opacity: 0;
+  transition: 0.8s ease;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  margin-top: 40%;
+}
+.text1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+p {
+  margin-left: 40px;
+}
