@@ -8,6 +8,7 @@ body{
   position: relative;
   /* width: 50%; */
   /* margin-left: 200px; */
+  margin: 20px;
 }
 
 .image {
@@ -27,14 +28,18 @@ body{
   width: 300px;
   opacity: 0;
   transition: 0.8s ease;
-  background-color: green;
+  background-color: lightseagreen;
   border-radius: 20px;
 }
 
 .container:hover .overlay {
   opacity: 1;
 }
-
+.middle{
+  display: flex;
+  justify-content: space-around;
+  
+}
 .text {
   display: flex;
   justify-content: center;
