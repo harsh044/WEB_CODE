@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.container{
+    position: absolute;
+    width: 60%;
+    top: 20%;
+    left: 20%;
+}
+.tab-wrap{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+.tab-wrap input[type="radio"]{
+    position: absolute;
+    left: -8888px;
+    top: -8888px;
+}
+.tab-wrap li{
+    float: left;
+    display: block;
+}
+.tab-wrap label{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px 4px 0 0;
+}
+.tab-wrap .tab-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    border-radius: 4px;
+}
+.tab-wrap input[type="radio"]:checked + label{
+    background-color: white;
+    color: black;
+}
+.tab-wrap input[type="radio"]:checked ~ .tab-content{
+    display: block;
+    background-color: white;
+}
